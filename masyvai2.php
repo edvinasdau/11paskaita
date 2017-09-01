@@ -12,9 +12,18 @@ print_r($sudetis);
 
 echo $suma;
 
-checkWater($troskinys){
-    //patikrinti ar vandens ne maziau nei
+function checkWater(){
+    if ($kiekis(2) => $kiekis(1)) {
+            echo "Vandens uztenka";
+            } else {
+                echo "Vandens neuztenka";          
+    }
+
 }
+
+checkWater($troskinys);
+    //patikrinti ar vandens ne maziau nei
+
 
 
 ?>
